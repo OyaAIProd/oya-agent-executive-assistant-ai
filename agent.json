@@ -86,9 +86,24 @@
       "platform": "google-sheets",
       "name": "Google Sheets \u2014 mk@oya.ai",
       "is_active": true
+    },
+    {
+      "platform": "slack",
+      "name": "Slack \u2014 OyaAI",
+      "is_active": true
     }
   ],
-  "routines": [],
+  "routines": [
+    {
+      "name": "check my mail and tell me if there's any...",
+      "description": "",
+      "schedule_human": "Every 5 minutes",
+      "schedule_cron": "*/5 * * * *",
+      "prompt": "check my mail and tell me if there's anything important but don't repert the same msg over and over again... only update me with the new things if any",
+      "output_channel": "C0ALE7E4S01",
+      "is_active": true
+    }
+  ],
   "triggers": [],
   "mcp_connections": [],
   "memories": [],
