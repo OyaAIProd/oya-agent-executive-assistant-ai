@@ -101,7 +101,7 @@
       "schedule_cron": "*/5 * * * *",
       "prompt": "check my mail and tell me if there's anything important but don't repert the same msg over and over again... only update me with the new things if any",
       "output_channel": "C0ALE7E4S01",
-      "is_active": false
+      "is_active": true
     }
   ],
   "triggers": [],
